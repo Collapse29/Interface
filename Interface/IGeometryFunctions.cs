@@ -8,9 +8,11 @@ namespace Interface
 {
     internal interface IGeometryFunctions
     {
-        public void Square();
+        public double Square();
 
-        public void Perimeter();
+        public double Perimeter();
+
+        public bool IsFigure();
     }
 
 }
